@@ -1,0 +1,34 @@
+{
+     "button":[
+     {	
+          "name":"今日歌曲",
+          "sub_button":[{
+          		"type":"scancode_push",
+          		"name":"扫一扫",
+          		"key": "scan"
+          },{
+          		"type":"pic_sysphoto",
+          		"name":"拍一拍",
+          		"key": "photo"
+          }]
+      },
+      {
+           "name":"菜单",
+           "sub_button":[
+           {	
+               "type":"view",
+               "name":"搜索",
+               "url":"http://www.baidu.com"
+            },
+            {
+               "type":"view",
+               "name":"视频",
+               "url":"http://v.qq.com/"
+            },
+            {
+               "type":"click",
+               "name":"赞一下我们",
+               "key":"V1001_GOOD"
+            }]
+       }]
+ }
